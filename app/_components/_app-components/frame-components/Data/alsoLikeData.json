@@ -1,0 +1,26 @@
+[
+  {
+    "imageName": "frame2.png",
+    "title": "Natural Wood",
+    "price": {
+      "originalPrice": 1499,
+      "discountedPrice": 1120
+    }
+  },
+  {
+    "imageName": "frame3.png",
+    "title": "Classic Wood Frames",
+    "price": {
+      "originalPrice": 1299,
+      "discountedPrice": 950
+    }
+  },
+  {
+    "imageName": "frame4.png",
+    "title": "Classic Thin",
+    "price": {
+      "originalPrice": 1349,
+      "discountedPrice": 1012
+    }
+  }
+]

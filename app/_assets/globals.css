@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%; */
+
+    --background: 0 0% 98%;
+    --foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    /* --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%; */
+
+    --popover: 0 0% 98%;
+    --popover-foreground: 240 5.9% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --border: 0, 0%, 98%;
+    --input: 240 5.9% 90%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 216 12% 86%;
+    --secondary-foreground: 221 39% 11%;
+
+    --accent: 0, 0%, 82%;
+    --accent-foreground: 0, 100%, 25%;
+    /* --accent-foreground: 240 5.9% 10%; */
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+
+    --ring: 240 3.7% 15.9%;
+  }
+
+  .dark {
+    /* --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%; */
+
+    --background: 359 100% 0%;
+    --foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    /* 
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%; */
+
+    --popover: 240 5.9% 10%;
+    --popover-foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 217 19% 27%;
+    --secondary-foreground: 216 12% 86%;
+
+    --accent: 190 100% 45.3%;
+    --accent-foreground: 190 100% 45.3%;
+    /* --accent-foreground: 0 0% 98%; white*/
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 240 5% 64.9%;
+
+    --radius: 0.5rem;
+  }
+}
+
+.my-container {
+  @apply max-w-[1250px] px-4 mx-auto;
+}
+
+/* .reactEasyCrop_Contain {
+  max-width: max-content !important;
+} */
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #000;
+  width: 24px;
+  height: 24px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+.loading-spinner-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slick-dots {
+  bottom: 15px !important;
+}
+
+.testimonial .slick-arrow::before {
+  color: #000;
+}
+
+.testimonial .slick-arrow.slick-next {
+  right: -4rem !important;
+}
+.testimonial .slick-arrow.slick-prev {
+  left: -4rem !important;
+}
+.testimonial .slick-dots {
+  bottom: -1.75rem !important;
+}
+.gold-border {
+  border-image: linear-gradient(45deg, #e8c462, #c18b20 30%, #daa520 50%, #e8c462 70%, #daad49);
+  border-image-slice: 1;
+}
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+}

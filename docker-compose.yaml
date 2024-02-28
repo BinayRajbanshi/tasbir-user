@@ -1,0 +1,10 @@
+version: '3'
+services:
+  tasbir:
+    build: .
+    container_name: tasbir-frontend-container
+    ports:
+      - '3005:3005'
+    volumes:
+      - .:/app
+      - /node_modules

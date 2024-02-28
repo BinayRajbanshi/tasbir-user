@@ -1,0 +1,56 @@
+[
+  {
+    "imageName": "product1.png",
+    "title": "Premium Framesd Prints",
+    "discount": "50%",
+    "price": {
+      "originalPrice": 1349,
+      "discountedPrice": 674
+    }
+  },
+  {
+    "imageName": "product2.png",
+    "title": "Natural Wood",
+    "discount": "40%",
+    "price": {
+      "originalPrice": 1499,
+      "discountedPrice": 900
+    }
+  },
+  {
+    "imageName": "product3.png",
+    "title": "Classic Wood Framess",
+    "discount": null,
+    "price": {
+      "originalPrice": 1299,
+      "discountedPrice": null
+    }
+  },
+  {
+    "imageName": "product4.png",
+    "title": "Classic Thin",
+    "discount": "30%",
+    "price": {
+      "originalPrice": 1349,
+      "discountedPrice": 945
+    }
+  },
+  {
+    "imageName": "product5.png",
+    "title": "Modern Wood Framess",
+    "discount": null,
+    "price": {
+      "originalPrice": 1499,
+      "discountedPrice": null
+    }
+  },
+  {
+    "imageName": "product6.png",
+    "title": "Metallic Brush",
+    "discount": "5%",
+    "price": {
+      "originalPrice": 1299,
+      "discountedPrice": 1234
+    }
+  }
+]

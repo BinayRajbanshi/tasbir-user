@@ -1,0 +1,51 @@
+{
+  "name": "Blessed Framing Print",
+  "slug": "Diskstmrad",
+  "description": " Add a touch of style to any setting with a distressed wood frame that hits all the right notes. This charming frame would suit any modern, contemporary or good old fashioned interiors. When it comes to decor, what more could you wish for",
+  "categories": ["72", "110", "105"],
+  "tags": ["2", "15"],
+  "isActive": false,
+  "price": "1250",
+  "specialPrice": "950",
+  "specialPriceStart": "2022/10/17",
+  "specialPriceEnd": "2022/12/18",
+  "sku": "Fraaksls",
+  "qty": "500",
+  "inStock": true,
+  "files": { "baseImage": "38", "additionalImage": ["35", "36", "37", "39", "38"] },
+  "meta": { "meta_title": "frame", "meta_description": "frame" },
+  "variant": [
+    {
+      "name": "Ocean Blue",
+      "url": "gkoljdn-frasames",
+      "isRequired": false,
+      "files": { "baseImage": "31" },
+      "values": [
+        { "size": "12*13", "originalPrice": "1299", "discountedPrice": "949", "files": { "baseImage": "34" } },
+        { "size": "13*14", "originalPrice": "1399", "discountedPrice": "949", "files": { "baseImage": "34" } },
+        { "size": "14*15", "originalPrice": "1499", "discountedPrice": "949", "files": { "baseImage": "34" } }
+      ]
+    },
+    {
+      "name": "Matt black",
+      "url": "brhwpn-frasames",
+      "isRequired": false,
+      "files": { "baseImage": "32" },
+      "values": [
+        { "size": "12*13", "originalPrice": "1299", "discountedPrice": "949", "files": { "baseImage": "33" } },
+        { "size": "13*14", "originalPrice": "1399", "discountedPrice": "949", "files": { "baseImage": "33" } },
+        { "size": "14*15", "originalPrice": "1499", "discountedPrice": "949", "files": { "baseImage": "33" } }
+      ]
+    }
+  ],
+  "attributes": [
+    { "attributeId": "125", "values": [] },
+    { "attributeId": "121", "values": [] }
+  ],
+  "relatedProducts": [],
+  "upSells": [],
+  "crossSells": [],
+  "shortDescription": "Touch of style to any setting with a distressed wood frame",
+  "newFrom": "",
+  "newTo": ""
+}

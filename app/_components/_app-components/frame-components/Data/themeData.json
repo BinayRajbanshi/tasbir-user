@@ -1,0 +1,38 @@
+[
+  {
+    "imageName": "selected-image-2.jpg",
+    "title": "Potrait Theme",
+    "imageCount": 1,
+    "type": "potrait",
+    "bg": false
+  },
+
+  {
+    "imageName": "selected-image-3.jpg",
+    "title": "2 collage Theme",
+    "imageCount": 2,
+    "type": "potrait",
+    "bg": false
+  },
+  {
+    "imageName": "selected-image-3.jpg",
+    "title": "3 collage Theme",
+    "imageCount": 3,
+    "type": "potrait",
+    "bg": false
+  },
+  {
+    "imageName": "selected-image-3.jpg",
+    "title": "4 collage Theme",
+    "imageCount": 4,
+    "type": "potrait",
+    "bg": false
+  },
+  {
+    "imageName": "wedding-tales.png",
+    "title": "Chistmas Theme",
+    "imageCount": 1,
+    "type": "potrait",
+    "bg": true
+  }
+]
